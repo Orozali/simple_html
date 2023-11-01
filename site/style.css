@@ -1,0 +1,42 @@
+/* Basic CSS for the entire site */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav li {
+    display: inline-block;
+    max-height: 200px;
+}
+
+nav a {
+    max-height: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+li:hover{
+    border-bottom: 1px white solid;
+    transition: .3s;
+}
